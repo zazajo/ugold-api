@@ -10,7 +10,7 @@ CIRCULATING_SUPPLY = 3215075
 def get_total_supply():
     return jsonify({"totalSupply": TOTAL_SUPPLY})
 
-@app.route('/cmc/totalsupply', methods=['GET'])
+@app.route('/circulatingsupply', methods=['GET'])
 def get_cmc_total_supply():
     return jsonify({"circulatingSupply": CIRCULATING_SUPPLY})
 
