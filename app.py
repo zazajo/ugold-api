@@ -2,9 +2,9 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-# Fixed supply values for Ceylon
-TOTAL_SUPPLY = 4000000000000.0
-CIRCULATING_SUPPLY = 3999894041550.31
+# Fixed supply values for BABY4
+TOTAL_SUPPLY = 1,000,000,000
+CIRCULATING_SUPPLY = 1,000,000,000
 
 @app.route('/totalsupply', methods=['GET'])
 def get_total_supply():
